@@ -1,0 +1,143 @@
+
+.bg-white{
+    background-color:white;
+}
+
+.bg-grey{
+   background-color: #f7f7f7;
+}
+
+.bg-red{
+    background-color:#d92626;
+}
+
+.txt-red{
+    color:#d92626;
+}
+
+.txt-white{
+    color:#e2d8d8;
+}
+
+.txt-dark{
+    color:#2b2727;
+}
+
+#last-offers
+{
+    padding:0;
+    margin:0;
+	background-color: #2b2727;
+    box-shadow: 3px 3px 18px #808080;
+}
+
+#about
+{
+    background-color:#d92626;
+    color:#2b2727;
+    box-shadow: 0 0 18px #808080;
+}
+
+
+.container-fluid
+{
+    padding:60px 40px;
+}
+
+.navbar{
+    margin-bottom:0;
+    border-radius:0;
+    background-color:#2b2727;
+    border-bottom:0;
+    padding-right:20px;
+}
+
+.carousel-control.left, .carousel-control.right
+{
+    background-image:none;
+    color:#d92626;
+}
+
+.carousel-indicators li
+{
+    border-color:#d92626;
+}
+
+.carousel-indicators li.active
+{
+    background-color:#d92626;
+}
+
+.carousel-inner .item img
+{
+    height:600px;
+    max-height: 600px;
+}
+
+.thumbnail
+{
+    border:1px solid #e4e1e1;
+    border-radius:0;
+    padding:0 0 5px 0;
+    box-shadow: 0 0 6px #c6c5c5;
+}
+.thumbnail img
+{
+    margin-bottom:10px;
+    height:100%;
+    width:100%;
+    max-height: 220px;
+    
+    -webkit-transition: all .3s ease;
+     -moz-transition: all .3s ease;
+       -o-transition: all .3s ease;
+          transition: all .3s ease;
+}
+
+.thumbnail:hover
+{
+  box-shadow: 0 0 15px #808080;
+ 
+}
+
+.thumbnail:hover img
+{
+    -webkit-filter: blur(3px);
+    -moz-filter:blur(3px);
+    -ms-filter:blur(3px);
+    filter:blur(3px);
+}
+
+.thumbnail a:active, .thumbnail a:link ,.thumbnail a:visited
+{
+    text-decoration:none;
+    color:#2b2727;
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+#about img
+{
+    width:100%;
+    height:100%;
+    max-height:280px;
+}
+
+.contact-section
+{
+    padding: 40px 0;
+}
+.glyphicon
+{
+    color:#d92626;
+    -webkit-transition: all .2s ease;
+     -moz-transition: all .2s ease;
+       -o-transition: all .2s ease;
+          transition: all .2s ease;
+}
+
+a:hover .glyphicon
+{
+    color:#cb2121;
+    font-size:110%;
+}
